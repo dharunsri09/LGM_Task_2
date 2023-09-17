@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em; 
+}
+a {
+  text-decoration: none; /* Remove underline */
+  color: #7c3535; /* Change link color to black */
+}
+.card {
+ 
+  /* Define your card styling here */
+  flex: 0 0 calc(30%);
+  background-color: #151515;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  color: azure;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.circle{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  bottom:-10em;
+  right: -8em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
